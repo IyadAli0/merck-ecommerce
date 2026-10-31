@@ -113,12 +113,3 @@ Microsoft Entra ID is the identity provider for the administrative control panel
 - Backend role-based access control protects administrative operations.
 
 This provides centralized authentication and authorization without introducing a separate identity management system.
-
-## Key Design Principles
-
-- Keep analytical workloads off the transactional request path.
-- Use caching and precomputed features for low-latency recommendations.
-- Prefer asynchronous, decoupled data pipelines.
-- Apply least-privilege IAM permissions and private network connectivity.
-- Use autoscaling, health checks, and centralized monitoring.
-- Keep infrastructure and application deployment repeatable through Terraform and CI/CD.
